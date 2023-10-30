@@ -7,24 +7,3 @@ if number >= 10000 and number < 100000:
 else:
 	print("Skriva eitt heiltal ímillum 10000 og 99999 ")
 
-
-"""Exercise 2.12"""
-# Formula a = p(1 + r)**n
-
-p = 1000.0
-r = 1.07
-n = 10
-
-a = p * r**n
-
-print(a)
-
-n = n * 2
-a = p * r**n
-
-print(a)
-
-n = n * 3
-a = p * r**n
-
-print(a)
